@@ -45,9 +45,9 @@ h.pats <- h.pats[rownames(brueelia_mx), rownames(brueelia_mx)]
 p.pats <- p.pats[colnames(brueelia_mx), colnames(brueelia_mx)]
 
 ###RUN PARAFIT
-#brpf <- parafit(h.pats, p.pats, brueelia_mx, nperm=999, test.links=T, correction='cailliez')
+brpf <- parafit(h.pats, p.pats, brueelia_mx, nperm=999, test.links=T, correction='cailliez')
 ##ALTERNATIVE CORRECTION
-brpf <- parafit(h.pats, p.pats, brueelia_mx, nperm=999, test.links=T, correction='lingoes')
+#brpf <- parafit(h.pats, p.pats, brueelia_mx, nperm=999, test.links=T, correction='lingoes')
 
 ###TANGLEGRAM
 HP.LUT <- which(brueelia_mx ==1, arr.in=TRUE)
