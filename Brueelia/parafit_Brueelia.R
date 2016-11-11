@@ -49,7 +49,7 @@ brpf <- parafit(h.pats, p.pats, brueelia_mx, nperm=999, test.links=T, correction
 ##ALTERNATIVE CORRECTION
 #brpf <- parafit(h.pats, p.pats, brueelia_mx, nperm=999, test.links=T, correction='lingoes')
 
-###TANGLEGRAM
+###TANGLEGRAM (Thanks to Juan Balbuena for this code)
 HP.LUT <- which(brueelia_mx ==1, arr.in=TRUE)
 links <- cbind(rownames(brueelia_mx)[HP.LUT[,1]],colnames(brueelia_mx)[HP.LUT[,2]])
 par(mar=c(1,1,1,1))
