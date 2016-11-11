@@ -1,4 +1,4 @@
-<font size=8>R code for ParaFit analyses from Sweet et al. Unpublished</font>
+<font size="8">R code for ParaFit analyses from Sweet et al. Unpublished</font>
 
 <b>1. parafit_Brueelia.R</b>
 <br>Basic ParaFit run between Brueelia-complex lice and their avian hosts
