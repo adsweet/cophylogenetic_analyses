@@ -1,7 +1,7 @@
 R code for ParaFit analyses from Sweet et al. Unpublished
 
 <b>1. parafit_Brueelia.R</b>
-<br></br>Basic ParaFit run between Brueelia-complex lice and their avian hosts
+<br>Basic ParaFit run between Brueelia-complex lice and their avian hosts
 <br><b>2. parafit_loop_Brueelia.R</b></br>
 Loop for running ParaFit on a distribution of host and parasite phylogenies (e.g. sampled from a Bayesian phylogenetic analysis)
 <br><b>3. Pval_adjusted.R</b></br>
