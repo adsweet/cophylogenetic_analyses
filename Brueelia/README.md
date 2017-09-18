@@ -1,4 +1,4 @@
-## R code for ParaFit analyses from Sweet et al. Unpublished
+## R code for ParaFit analyses for Brueelia-compelx lice
 
 <b>1. parafit_Brueelia.R</b>
 <br>Basic ParaFit run between Brueelia-complex lice and their avian hosts
