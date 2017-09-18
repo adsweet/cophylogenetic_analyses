@@ -1,9 +1,19 @@
 #!/usr/bin/env perl
 
+############################################################################
+# This script selects the global p-values from the output files of a 		
+# looped ParaFit run, and copies them to a file called "global_p_values.txt
+# 
+# Andrew D. Sweet
+############################################################################
+
+
+
 use strict;
 use warnings;
 
-my $infile = 'file.txt';
+system "ls -l *.txt >files.txt";
+my $infile = 'files.txt';
 
 open OUT, ">global_p_values.txt";
 open FH, "<$infile";
