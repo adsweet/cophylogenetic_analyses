@@ -2,8 +2,13 @@
 
 library(ape)
 
+## SELECT 100 RANDOM TREES FROM THE POSTERIOR DISTRIBUTION OF TREES
+trees <- read.nexus(<trees_file>) #Read in a file with the post-burnin distribution of trees (e.g., from MrBayes)
+r_trees <- random(trees, size=100)
+write.tree(r_trees, file='brueelia_100.tre') #Write random trees to a file
+
 ## READ IN ALL PARASITE TREES
-p.trees <- read.nexus('brueelia_100.tre')
+p.trees <- read.nexus('brueelia_100.tre') #Or use r_trees from above
 
 
 ## LOOP TO ROOT AND TRIM ALL PARASITE TREES
