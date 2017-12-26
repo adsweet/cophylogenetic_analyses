@@ -11,3 +11,6 @@ Perl script for selecting global p-values from output files of parafit_loop_Brue
 
 <br><b>4. Pval_adjusted.R</b></br>
 Code for correcting the p-values from the ParaFitLink1 and ParaFitLink2 individual link test results
+
+<br><b>5. brueelia_glm.R</b></br>
+R script for selecting the best generalized linear model with an AICstep approach. The input file should be a table with the traits of interest for each host-parasite association (e.g., "host body mass") and the results from a cophylogenetic analysis (i.e., indication of whether a particular host-parasite association is significantly contributing to the overall phylogenetic congruence). 
