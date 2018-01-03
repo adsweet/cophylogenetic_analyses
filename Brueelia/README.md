@@ -1,4 +1,4 @@
-## Code for cophylogenetic analyses for Brueelia-compelx lice
+## Code for cophylogenetic analysis of Brueelia-compelx lice and their hosts
 
 <b>1. parafit_Brueelia.R</b>
 <br>Basic ParaFit run between Brueelia-complex lice and their avian hosts
