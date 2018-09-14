@@ -1,5 +1,7 @@
 ## Code for cophylogenetic analysis of Brueelia-compelx lice and their hosts
 
+Developed for the paper: Sweet, A.D., S.E. Bush, D.R. Gustafsson, J.M. Allen, E. DiBlasi, H.R. Skeen, J.D. Weckstein, and K.P. Johnson. Host and parasite morphology influence congruence between host and parasite phylogenies. International Journal for Parasitology. 48: 641-648. https://doi.org/10.1016/j.ijpara.2018.01.007.
+
 <b>1. parafit_Brueelia.R</b>
 <br>Basic ParaFit run between Brueelia-complex lice and their avian hosts
 
