@@ -23,4 +23,4 @@ Usage: python3 make_tangle.py -m <CSV file> -s <host tree file> -p <parasite tre
 
 ## Projects
 ### Brueelia
-Scripts associated with: `Sweet et al. 2018. Host and parasite morphology influence congruence between host and parasite phylogenies. International Journal for Parasitology. 48: 641-648.` 
+Scripts associated with: `Sweet A.D., S.E. Bush, D.R. Gustafsson, J.M. Allen, E. DiBlasi, H.R. Skeen, J.D. Weckstein, and K.P. Johnson. 2018. Host and parasite morphology influence congruence between host and parasite phylogenies. International Journal for Parasitology. 48: 641-648.` 
