@@ -12,11 +12,11 @@ Usage: python3 make_tangle.py -m <CSV file> -s <host tree file> -p <parasite tre
 #### Arguments
 - `-h, --help`
   - Lists arguments
-- `m, --matrix CSV_FILE`
+- `-m, --matrix CSV_FILE`
   - Input matrix of host-parasit associations in CSV format. Host names should be row names and parasite names should be column names, and both need to match names in the respective tree files. Associations should be indicated with 0s and 1s, with 1 indicating an association.
-- `s, --host HOST_TREE`
+- `-s, --host HOST_TREE`
   - Host phylogeny in Newick format.
-- `p, --parasite PARASITE_TREE`
+- `-p, --parasite PARASITE_TREE`
   - Parasite phylogeny in Newick format.
 - `-o, --output OUTFILE`
   - Output file. 
